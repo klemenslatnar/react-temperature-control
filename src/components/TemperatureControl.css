@@ -1,0 +1,69 @@
+.square {
+  width: 20rem;
+  height: 30rem;
+  background-color: #004179;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.left-circle {
+  color: white;
+  font-size: 3rem;
+  padding: auto auto;
+  width: 5rem;
+  height: 5rem;
+  background-color: #e70a0a;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.right-circle {
+  color: white;
+  font-size: 3rem;
+  padding: auto auto;
+  width: 5rem;
+  height: 5rem;
+  background-color: #0dbcff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.temp-circle {
+  font-size: 4rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 14rem;
+  height: 14rem;
+  background-color: rgb(216, 216, 216);
+  border-radius: 50%;
+  transition: background-color 0.5s;
+}
+
+.temp-name {
+  font-size: 3rem;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.temp-control {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
